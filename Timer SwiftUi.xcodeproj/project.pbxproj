@@ -11,6 +11,7 @@
 		9E96127527651C0400A209FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E96127427651C0400A209FF /* ContentView.swift */; };
 		9E96127727651C0700A209FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E96127627651C0700A209FF /* Assets.xcassets */; };
 		9E96127A27651C0700A209FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E96127927651C0700A209FF /* Preview Assets.xcassets */; };
+		9E96128127651C3E00A209FF /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E96128027651C3E00A209FF /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		9E96127427651C0400A209FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E96127627651C0700A209FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E96127927651C0700A209FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E96128027651C3E00A209FF /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		9E96128227652C8D00A209FF /* Timer-SwiftUi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Timer-SwiftUi-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		9E96127127651C0400A209FF /* Timer SwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				9E96128227652C8D00A209FF /* Timer-SwiftUi-Info.plist */,
 				9E96127227651C0400A209FF /* Timer_SwiftUiApp.swift */,
 				9E96127427651C0400A209FF /* ContentView.swift */,
+				9E96128027651C3E00A209FF /* Timer.swift */,
 				9E96127627651C0700A209FF /* Assets.xcassets */,
 				9E96127827651C0700A209FF /* Preview Content */,
 			);
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E96127527651C0400A209FF /* ContentView.swift in Sources */,
+				9E96128127651C3E00A209FF /* Timer.swift in Sources */,
 				9E96127327651C0400A209FF /* Timer_SwiftUiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +278,7 @@
 				DEVELOPMENT_TEAM = 5RUACV32J4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Timer-SwiftUi-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +308,7 @@
 				DEVELOPMENT_TEAM = 5RUACV32J4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Timer-SwiftUi-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
